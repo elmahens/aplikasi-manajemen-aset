@@ -1,0 +1,17 @@
+{
+  "name": "manajemen-aset-server",
+  "version": "1.0.0",
+  "description": "Server untuk aplikasi manajemen aset dan pemeliharaan",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "init-db": "node db-init.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  }
+}
+
